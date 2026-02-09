@@ -64,5 +64,5 @@ export const vendors: Record<string, VendorSkillMeta> = {
  */
 export const manual = [
   'climbh',
-  'jn-ve-global',
+  'jn-ve-global-best-practices',
 ]
