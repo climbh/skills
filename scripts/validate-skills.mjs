@@ -62,6 +62,9 @@ for (const skillDir of await discoverSkills()) {
 
   for (const markdownFile of await walkMarkdown(skillDir)) {
     const content = await fs.readFile(markdownFile, 'utf8')
+    if (/\/Users\/|\/home\/[^/\s]+\/|[A-Za-z]:\\Users\\/.test(content))
+      fail(directoryName, `${path.relative(skillDir, markdownFile)} contains a user-specific absolute path`)
+
     for (const match of content.matchAll(markdownLinkPattern)) {
       const linkedFile = path.resolve(path.dirname(markdownFile), decodeURIComponent(match[1]))
       try {

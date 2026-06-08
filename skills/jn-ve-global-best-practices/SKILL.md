@@ -28,7 +28,7 @@ Treat bundled references as usage guidance for documented version `v3.8.2`, not 
 When exact behavior matters:
 
 1. Prefer the target project's installed `jn-ve-global` package because it matches the consuming app.
-2. Otherwise inspect the available source tree, commonly `/Users/Ai/TRAE/jn-ve-global`.
+2. Otherwise inspect an available `jn-ve-global` source checkout supplied by the user or present in the current workspace.
 3. Check the component's `index.ts`, `interface/` files, and `index.vue` props/emits.
 4. Use only exports reachable from the package root unless the target project already relies on a documented subpath.
 
@@ -59,4 +59,3 @@ Do not invent props from the underlying Element Plus component. Confirm whether 
 - Use [README.md](references/README.md) for the documentation index and installation overview.
 - Use dedicated component files in `references/` for detailed props, events, and examples.
 - Use [JN-VE-GLOBAL组件库使用文档.md](references/JN-VE-GLOBAL组件库使用文档.md) for consolidated guidance and components without dedicated files.
-- Run `scripts/sync_docs.sh --help` to refresh bundled documentation from a newer documentation directory.

@@ -2,8 +2,6 @@
 
 Monorepo for reusable Agent Skills.
 
-[![skills.sh](https://skills.sh/b/climbh/skills)](https://skills.sh/climbh/skills)
-
 ## Install
 
 List available skills:
@@ -23,6 +21,8 @@ Install it globally for Codex without interactive prompts:
 ```bash
 npx skills add climbh/skills --skill jn-ve-global-best-practices --global --agent codex --yes
 ```
+
+The repository is directly installable through the Skills CLI. A skills.sh listing is separate from GitHub hosting and may not exist until the skills.sh index discovers the repository.
 
 ## Structure
 
