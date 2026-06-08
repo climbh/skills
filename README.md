@@ -2,6 +2,28 @@
 
 Monorepo for reusable Agent Skills.
 
+[![skills.sh](https://skills.sh/b/climbh/skills)](https://skills.sh/climbh/skills)
+
+## Install
+
+List available skills:
+
+```bash
+npx skills add climbh/skills --list
+```
+
+Install `jn-ve-global-best-practices`:
+
+```bash
+npx skills add climbh/skills --skill jn-ve-global-best-practices
+```
+
+Install it globally for Codex without interactive prompts:
+
+```bash
+npx skills add climbh/skills --skill jn-ve-global-best-practices --global --agent codex --yes
+```
+
 ## Structure
 
 ```text
