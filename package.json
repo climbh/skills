@@ -1,0 +1,13 @@
+{
+  "name": "skills",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.15.9",
+  "scripts": {
+    "skills:list": "node scripts/list-skills.mjs",
+    "skills:validate": "node scripts/validate-skills.mjs",
+    "skills:package": "node scripts/package-skills.mjs",
+    "validate": "pnpm run skills:validate",
+    "package": "pnpm run skills:package"
+  }
+}

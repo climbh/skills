@@ -1,0 +1,4 @@
+interface:
+  display_name: "JN-VE-GLOBAL 组件库"
+  short_description: "在 Vue 3 项目中正确选用和配置 JN-VE-GLOBAL 组件"
+  default_prompt: "Use $jn-ve-global-best-practices to implement this Vue 3 interface with the appropriate JN-VE-GLOBAL components."
