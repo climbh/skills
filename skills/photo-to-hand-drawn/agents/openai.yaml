@@ -1,0 +1,4 @@
+interface:
+  display_name: "照片转手绘水彩"
+  short_description: "将照片完整转为水彩，或保留部分原图并与水彩自然融合"
+  default_prompt: "Use $photo-to-hand-drawn to transform this photograph into the requested watercolor mode while preserving its recognizable composition and identity."
