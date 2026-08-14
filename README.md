@@ -16,11 +16,19 @@ Install `jn-ve-global-best-practices`:
 npx skills add climbh/skills --skill jn-ve-global-best-practices
 ```
 
+Install `photo-to-hand-drawn`:
+
+```bash
+npx skills add climbh/skills --skill photo-to-hand-drawn
+```
+
 Install it globally for Codex without interactive prompts:
 
 ```bash
 npx skills add climbh/skills --skill jn-ve-global-best-practices --global --agent codex --yes
 ```
+
+Replace the skill name in that command with `photo-to-hand-drawn` to install the watercolor skill globally.
 
 The repository is directly installable through the Skills CLI. A skills.sh listing is separate from GitHub hosting and may not exist until the skills.sh index discovers the repository.
 
